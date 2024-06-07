@@ -13,15 +13,15 @@ while True:
         break
     num = int(num / 10)
     Digit += 1
-#print("Digit number =",Digit)
+
 
 i = 0
 sum = 0
 while (i < Digit):
     sum += (num2 % 10) ** Digit
-    #print("sum =",sum)
+    
     num2 = int(num2 / 10)
-    #print(num2)
+    
     i += 1
 if (sum == num3):
     print(num3,"is armstrong number")
