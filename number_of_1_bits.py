@@ -1,6 +1,5 @@
 num = int(input("Please enter a number = "))
 
-
 list = []
 
 while (True):
