@@ -1,12 +1,10 @@
 def intersection(nums1,nums2):
     list = []
+    copy_nums2 = nums2[:]
     for i in nums1:
-        for j in nums2:
-            if (i == j):
-                list.append(i)
-                for k in nums1:
-                    if (k == i):
-                        nums1.remove(k)
+        if (i in copy_nums2):
+            list.append(i)
+            for j in nums2:
+                if (j == i):
+                    copy_nums2.remove(j)
     return list
-
-print(intersection([1,2,2,1],[2,2]))
