@@ -11,4 +11,3 @@ def countBits(n):
                 break
         list.append(count)
     return list
-print(countBits(5))
