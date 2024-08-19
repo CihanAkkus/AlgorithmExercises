@@ -7,6 +7,7 @@ print(b)
 
 
 for i in range(0,num):
+    
     sum = a + b
     print(sum)
 
