@@ -1,3 +1,5 @@
 def commonChars():
 
-    print()
+    print("first line")
+
+commonChars()
