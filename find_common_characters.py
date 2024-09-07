@@ -1,3 +1,3 @@
 def commonChars():
 
-    print
+    print()
