@@ -15,4 +15,4 @@ def commonChars(words):
 
     return list
 
-print(commonChars(["bella","label","roller"]))
+print(commonChars(["bella","label","roller","lüleburgaz"]))
